@@ -40,7 +40,19 @@
 // }
 
 
-const dayOfWeek = 'Thursday';
+// const dayOfWeek = 'Thursday';
+
+// if (dayOfWeek === 'Friday') {
+//     console.log("Friday is awesome day");
+// }else if (dayOfWeek === 'Thursday') {
+//     console.log("Thursday is great after work");
+// }else if (dayOfWeek === 'Saturday') {
+//     console.log("Saturday is free day");
+// }else{
+//     console.log("working day");
+// }
+
+const dayOfWeek = prompt('ENTER A DAY');
 
 if (dayOfWeek === 'Friday') {
     console.log("Friday is awesome day");
