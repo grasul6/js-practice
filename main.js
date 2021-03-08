@@ -27,14 +27,27 @@
 // 13-60 - $20 - adult
 // 60+   - $10 - senior 
 
-const age = 61;
+// const age = 1;
 
-if (age<3) {
-    console.log(" you are infant. you get in for free");
-}else if (age<13) {
-    console.log("you are child, you need to pay $10");
-}else if (age<60) {
-    console.log("you are adult, you need to pay $20");
-}else if (age>60) {
-    console.log("you are senior, you need to pay $10"); 
+// if (age<3) {
+//     console.log(" you are infant. you get in for free");
+// }else if (age<13) {
+//     console.log("you are child, you need to pay $10");
+// }else if (age<60) {
+//     console.log("you are adult, you need to pay $20");
+// }else if (age>60) {
+//     console.log("you are senior, you need to pay $10"); 
+// }
+
+
+const dayOfWeek = 'Thursday';
+
+if (dayOfWeek === 'Friday') {
+    console.log("Friday is awesome day");
+}else if (dayOfWeek === 'Thursday') {
+    console.log("Thursday is great after work");
+}else if (dayOfWeek === 'Saturday') {
+    console.log("Saturday is free day");
+}else{
+    console.log("working day");
 }
