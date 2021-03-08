@@ -52,14 +52,42 @@
 //     console.log("working day");
 // }
 
-const dayOfWeek = prompt('ENTER A DAY');
+// const dayOfWeek = prompt('ENTER A DAY');
 
-if (dayOfWeek === 'Friday') {
-    console.log("Friday is awesome day");
-}else if (dayOfWeek === 'Thursday') {
-    console.log("Thursday is great after work");
-}else if (dayOfWeek === 'Saturday') {
-    console.log("Saturday is free day");
-}else{
-    console.log("working day");
-}
+// if (dayOfWeek === 'Friday') {
+//     console.log("Friday is awesome day");
+// }else if (dayOfWeek === 'Thursday') {
+//     console.log("Thursday is great after work");
+// }else if (dayOfWeek === 'Saturday') {
+//     console.log("Saturday is free day");
+// }else{
+//     console.log("working day");
+// }
+
+
+// let random = Math.random()
+
+// if (random<0.5) {
+//     console.log("your number is less than 0.5");
+// }else if (random = 0.5) {
+//     console.log("your number is equal 0.5");
+// }else {
+//     console.log("your number is greater than  0.5");
+// }
+
+
+// password must be 6+ character
+const password = prompt("please enter a new password ")
+
+// password must be 6+ character
+
+
+if (password.length >= 6) {
+    if (password.indexOf(' ') === -1) {
+       console.log("valid password!"); 
+    }else {
+        console.log("password cannot contain spaces!");
+    }
+}else {
+    console.log("password too short! must be 6+ character");
+} 
