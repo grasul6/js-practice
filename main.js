@@ -103,7 +103,7 @@
 // }
 
 
-const lastName = promt("enter your lastName");
+const lastName = prompt("enter your lastName");
 
 if (lastName.length >= 6 && lastName.indexOf('  ') === -1) {
     console.log("valid last name");
