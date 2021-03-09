@@ -110,3 +110,5 @@ if (lastName.length >= 6 && lastName.indexOf('  ') === -1) {
 }else{
     console.log("incorrect format for last name");
 }
+
+arry-js-practice
