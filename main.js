@@ -93,6 +93,7 @@
 // } 
 
 // AND practice
+
 const password = promt("enter your password");
 
 if (password.length >= 6 && password.indexOf('  ') === -1) {
