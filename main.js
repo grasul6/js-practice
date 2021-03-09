@@ -94,10 +94,19 @@
 
 // AND practice
 
-const password = promt("enter your password");
+// const password = promt("enter your password");
 
-if (password.length >= 6 && password.indexOf('  ') === -1) {
-    console.log("valid password");
+// if (password.length >= 6 && password.indexOf('  ') === -1) {
+//     console.log("valid password");
+// }else{
+//     console.log("incorrect format for password");
+// }
+
+
+const lastName = promt("enter your lastName");
+
+if (lastName.length >= 6 && lastName.indexOf('  ') === -1) {
+    console.log("valid last name");
 }else{
-    console.log("incorrect format for password");
+    console.log("incorrect format for last name");
 }
