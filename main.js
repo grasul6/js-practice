@@ -77,17 +77,27 @@
 
 
 // password must be 6+ character
-const password = prompt("please enter a new password ")
+// const password = prompt("please enter a new password ")
 
-// password must be 6+ character
+// // password must be 6+ character
 
 
-if (password.length >= 6) {
-    if (password.indexOf(' ') === -1) {
-       console.log("valid password!"); 
-    }else {
-        console.log("password cannot contain spaces!");
-    }
-}else {
-    console.log("password too short! must be 6+ character");
-} 
+// if (password.length >= 6) {
+//     if (password.indexOf(' ') === -1) {
+//        console.log("valid password!"); 
+//     }else {
+//         console.log("password cannot contain spaces!");
+//     }
+// }else {
+//     console.log("password too short! must be 6+ character");
+// } 
+
+// AND practice
+
+const password = promt("enter your password");
+
+if (password.length >= 6 && password.indexOf('  ') === -1) {
+    console.log("valid password");
+}else{
+    console.log("incorrect format for password");
+}
