@@ -103,6 +103,9 @@
 // }
 
 
+
+// arry-js-practice
+
 const lastName = prompt("enter your lastName");
 
 if (lastName.length >= 6 && lastName.indexOf('  ') === -1) {
@@ -111,4 +114,4 @@ if (lastName.length >= 6 && lastName.indexOf('  ') === -1) {
     console.log("incorrect format for last name");
 }
 
-// arry-js-practice
+// app.js file has added
