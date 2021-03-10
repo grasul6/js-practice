@@ -13,3 +13,14 @@ if (firstName.length >= 6 && firstName.indexOf('  ') === -1) {
 }else{
     console.log("incorrect format for first name");
 }
+
+
+let random = Math.random()
+
+if (random<0.5) {
+    console.log("your number is less than 0.5");
+}else if (random = 0.5) {
+    console.log("your number is equal 0.5");
+}else {
+    console.log("your number is greater than  0.5");
+}
