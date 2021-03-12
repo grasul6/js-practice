@@ -101,44 +101,10 @@
 // }else{
 //     console.log("incorrect format for password");
 // }
-
-// const lastName = prompt("enter your lastName");
-
-
 // arry-js-practice
-
 // const lastName = prompt("enter your lastName");
-<<<<<<< HEAD
-
 // if (lastName.length >= 6 && lastName.indexOf('  ') === -1) {
 //     console.log("valid last name");
 // }else{
 //     console.log("incorrect format for last name");
-// }
-
-
-=======
->>>>>>> main
-
-
-// if (lastName.length >= 6 && lastName.indexOf('  ') === -1) {
-//     console.log("valid last name");
-// }else{
-//     console.log("incorrect format for last name");
-// }
-
-
-// arry-js-practice
-
-// const dayOfWeek = 'Saturday';
-
-// if (dayOfWeek === 'Friday') {
-//     console.log("Friday is weekend and holyday");
-// }else if (dayOfWeek === 'Saturday') {
-//     console.log("Saturday is 2nd weekend and holyday");
-// }else{
-//     console.log("working day in bangladesh");
-// }
-
-// app.js file has added
-
+//
