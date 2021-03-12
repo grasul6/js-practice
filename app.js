@@ -29,7 +29,7 @@
 
 // const password = prompt("please enter a new password ");
 
-// password must be 6+ character
+// // password must be 6+ character
 
 
 // if (password.length >= 6) {
@@ -40,9 +40,13 @@
 //     }
 // }else {
 //     console.log("password too short! must be 6+ character");
+ 
+// }
+
 // }
 
 
+<<<<<<< HEAD
 // const password = prompt("Please enter your new password");
 
 // // password must be 8+ character
@@ -82,3 +86,19 @@ if (age >= 0 && age < 6 || age >=65) {
 }else {
     console.log("invalid age!");
 }
+
+const password = prompt("Please enter your new password");
+
+// password must be 8+ character
+if (password.length >= 8) {
+    if (password.indexOf(' ') === -1) {
+        console.log("valid password");
+    }else{
+    console.log("password too short! must be enter 8+ character");
+    }
+// password can not include space
+}else{
+    console.log("password can not contain spaces!");
+}
+
+ arry1-js-practice
