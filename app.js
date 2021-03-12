@@ -76,29 +76,31 @@
 // 11-64 $20
 // 65+ free 
 
-const age = 64;
-if (age >= 0 && age < 6 || age >=65) {
-    console.log("free");
-}else if   (age >= 6 && age < 11){
-    console.log("$10");
-}else if (age >= 11 && age < 65) {
-    console.log("$20");
-}else {
-    console.log("invalid age!");
-}
+// const age = 64;
+// if (age >= 0 && age < 6 || age >=65) {
+//     console.log("free");
+// }else if   (age >= 6 && age < 11){
+//     console.log("$10");
+// }else if (age >= 11 && age < 65) {
+//     console.log("$20");
+// }else {
+//     console.log("invalid age!");
+// }
 
-const password = prompt("Please enter your new password");
+// const password = prompt("Please enter your new password");
 
-// password must be 8+ character
-if (password.length >= 8) {
-    if (password.indexOf(' ') === -1) {
-        console.log("valid password");
-    }else{
-    console.log("password too short! must be enter 8+ character");
-    }
-// password can not include space
-}else{
-    console.log("password can not contain spaces!");
-}
+// // password must be 8+ character
+// if (password.length >= 8) {
+//     if (password.indexOf(' ') === -1) {
+//         console.log("valid password");
+//     }else{
+//     console.log("password too short! must be enter 8+ character");
+//     }
+// // password can not include space
+// }else{
+//     console.log("password can not contain spaces!");
+// }
 
  arry1-js-practice
+
+ 
