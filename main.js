@@ -102,14 +102,20 @@
 //     console.log("incorrect format for password");
 // }
 
-
 // const lastName = prompt("enter your lastName");
+
+
+// arry-js-practice
+
+const lastName = prompt("enter your lastName");
+
 
 // if (lastName.length >= 6 && lastName.indexOf('  ') === -1) {
 //     console.log("valid last name");
 // }else{
 //     console.log("incorrect format for last name");
 // }
+
 
 // arry-js-practice
 
@@ -122,3 +128,6 @@ if (dayOfWeek === 'Friday') {
 }else{
     console.log("working day in bangladesh");
 }
+=======
+// app.js file has added
+>>>>>>> main
