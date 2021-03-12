@@ -67,8 +67,13 @@
 //     console.log("incorrect formate for password");
 // }
 
-let firstName = prompt('enter your first name');
+// let firstName = prompt('enter your first name');
 
-if (!firstName) {
-    firstName = prompt("try again!")
+// if (!firstName) {
+//     firstName = prompt("try again!")
+// }
+
+const age = 8;
+if (!(age >= 0 && age < 5 || age >=65)){
+    console.log("you are not a baby or a senior");
 }
