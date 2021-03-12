@@ -59,10 +59,26 @@
 
 // and or not logic
 
-const password = prompt('enter password');
+// const password = prompt('enter password');
 
-if (password.length >= 8 && password.indexOf(' ') === -1) {
-    console.log("valid password");
+// if (password.length >= 8 && password.indexOf(' ') === -1) {
+//     console.log("valid password");
+// }else {
+//     console.log("incorrect formate for password");
+// }
+
+// 0-5 free 
+// 6-10 $10
+// 11-64 $20
+// 65+ free 
+
+const age = 64;
+if (age >= 0 && age < 6 || age >=65) {
+    console.log("free");
+}else if   (age >= 6 && age < 11){
+    console.log("$10");
+}else if (age >= 11 && age < 65) {
+    console.log("$20");
 }else {
-    console.log("incorrect formate for password");
+    console.log("invalid age!");
 }
