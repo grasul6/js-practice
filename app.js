@@ -40,4 +40,23 @@
 //     }
 // }else {
 //     console.log("password too short! must be 6+ character");
+ 
 // }
+
+// }
+
+
+const password = prompt("Please enter your new password");
+
+// password must be 8+ character
+if (password.length >= 8) {
+    if (password.indexOf(' ') === -1) {
+        console.log("valid password");
+    }else{
+    console.log("password too short! must be enter 8+ character");
+    }
+// password can not include space
+}else{
+    console.log("password can not contain spaces!");
+}
+
