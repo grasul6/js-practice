@@ -43,16 +43,26 @@
 // }
 
 
-const password = prompt("Please enter your new password");
+// const password = prompt("Please enter your new password");
 
-// password must be 8+ character
-if (password.length >= 8) {
-    if (password.indexOf(' ') === -1) {
-        console.log("valid password");
-    }else{
-    console.log("password too short! must be enter 8+ character");
-    }
-// password can not include space
-}else{
-    console.log("password can not contain spaces!");
-}tou
+// // password must be 8+ character
+// if (password.length >= 8) {
+//     if (password.indexOf(' ') === -1) {
+//         console.log("valid password");
+//     }else{
+//     console.log("password too short! must be enter 8+ character");
+//     }
+// // password can not include space
+// }else{
+//     console.log("password can not contain spaces!");
+// }tou
+
+// and or not logic
+
+const password = prompt('enter password');
+
+if (password.length >= 8 && password.indexOf(' ') === -1) {
+    console.log("valid password");
+}else {
+    console.log("incorrect formate for password");
+}
