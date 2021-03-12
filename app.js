@@ -41,3 +41,19 @@
 // }else {
 //     console.log("password too short! must be 6+ character");
 // }
+
+
+const password = prompt("Please enter your new password");
+
+// password must be 8+ character
+if (password.length >= 8) {
+    console.log("password is long enough");
+}else {
+    console.log("password too short! must be enter 8+ character");
+}
+// password can not include space
+if (password.indexOf(' ') === -1) {
+    console.log("good job! no space");
+}else{
+    console.log("password can not contain spaces!");
+}
