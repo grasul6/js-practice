@@ -49,10 +49,10 @@ const password = prompt("Please enter your new password");
 if (password.length >= 8) {
     if (password.indexOf(' ') === -1) {
         console.log("valid password");
-    }else {
+    }else{
     console.log("password too short! must be enter 8+ character");
-}
+    }
 // password can not include space
-else{
+}else{
     console.log("password can not contain spaces!");
 }
