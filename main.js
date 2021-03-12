@@ -107,7 +107,7 @@
 
 // arry-js-practice
 
-const lastName = prompt("enter your lastName");
+// const lastName = prompt("enter your lastName");
 
 
 // if (lastName.length >= 6 && lastName.indexOf('  ') === -1) {
@@ -119,15 +119,15 @@ const lastName = prompt("enter your lastName");
 
 // arry-js-practice
 
-const dayOfWeek = 'Saturday';
+// const dayOfWeek = 'Saturday';
 
-if (dayOfWeek === 'Friday') {
-    console.log("Friday is weekend and holyday");
-}else if (dayOfWeek === 'Saturday') {
-    console.log("Saturday is 2nd weekend and holyday");
-}else{
-    console.log("working day in bangladesh");
-}
+// if (dayOfWeek === 'Friday') {
+//     console.log("Friday is weekend and holyday");
+// }else if (dayOfWeek === 'Saturday') {
+//     console.log("Saturday is 2nd weekend and holyday");
+// }else{
+//     console.log("working day in bangladesh");
+// }
 
 // app.js file has added
 
