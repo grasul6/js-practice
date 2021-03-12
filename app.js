@@ -46,7 +46,7 @@
 // }
 
 
-<<<<<<< HEAD
+
 // const password = prompt("Please enter your new password");
 
 // // password must be 8+ character
