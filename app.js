@@ -47,13 +47,12 @@ const password = prompt("Please enter your new password");
 
 // password must be 8+ character
 if (password.length >= 8) {
-    console.log("password is long enough");
-}else {
+    if (password.indexOf(' ') === -1) {
+        console.log("valid password");
+    }else {
     console.log("password too short! must be enter 8+ character");
 }
 // password can not include space
-if (password.indexOf(' ') === -1) {
-    console.log("good job! no space");
-}else{
+else{
     console.log("password can not contain spaces!");
 }
