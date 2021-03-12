@@ -59,10 +59,16 @@
 
 // and or not logic
 
-const password = prompt('enter password');
+// const password = prompt('enter password');
 
-if (password.length >= 8 && password.indexOf(' ') === -1) {
-    console.log("valid password");
-}else {
-    console.log("incorrect formate for password");
+// if (password.length >= 8 && password.indexOf(' ') === -1) {
+//     console.log("valid password");
+// }else {
+//     console.log("incorrect formate for password");
+// }
+
+let firstName = prompt('enter your first name');
+
+if (!firstName) {
+    firstName = prompt("try again!")
 }
