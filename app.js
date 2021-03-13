@@ -78,10 +78,10 @@
 //     firstName = prompt("try again!")
 // }
 
-const age = 8;
-if (!(age >= 0 && age < 5 || age >=65)){
-    console.log("you are not a baby or a senior");
-}
+// const age = 8;
+// if (!(age >= 0 && age < 5 || age >=65)){
+//     console.log("you are not a baby or a senior");
+// }
 
 
 // if (password.length >= 8 && password.indexOf(' ') === -1) {
@@ -120,7 +120,7 @@ if (!(age >= 0 && age < 5 || age >=65)){
 //     console.log("password can not contain spaces!");
 // }
 
- arry1-js-practice
+//  arry1-js-practice
 
 //  const kitchenSink = {
 //      favNum: 5645564;
