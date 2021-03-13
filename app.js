@@ -122,9 +122,9 @@ if (!(age >= 0 && age < 5 || age >=65)){
 
  arry1-js-practice
 
- const kitchenSink = {
-     favNum: 5645564;
-     isFunny: true;
-     colors: ['red', 'orange']
- }
+//  const kitchenSink = {
+//      favNum: 5645564;
+//      isFunny: true;
+//      colors: ['red', 'orange']
+//  }
  
